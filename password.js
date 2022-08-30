@@ -2,11 +2,11 @@ var password = "12345";
 
 function passcheck(){
     if(document.getElementById("pass1").value != password){
-        alert("not this way.");
+        alert("Esse não é o caminho.");
         return false;
     }
     
     if(document.getElementById("pass1").value == password){
-        alert("Correct Password. Click OK to enter webpage.");
+        alert("Senha correta. aperte ok para ir para a pagina final.");
     }
 }
