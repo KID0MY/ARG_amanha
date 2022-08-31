@@ -1,4 +1,4 @@
-var password = "12345";
+var password = "amanha";
 
 function passcheck(){
     if(document.getElementById("pass1").value != password){
