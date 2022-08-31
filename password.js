@@ -1,4 +1,4 @@
-var password = "Mâine";
+var password = "mâine";
 
 function passcheck(){
     if(document.getElementById("pass1").value != password){
@@ -8,6 +8,5 @@ function passcheck(){
     
     if(document.getElementById("pass1").value == password){
         alert("Senha correta. aperte ok para ir para a pagina final.");
-        next()
     }
 }
