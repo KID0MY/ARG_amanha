@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <link rel="icon" href="resources/weblogo.ico">
+        <link rel="stylesheet" href="logo.css">
+        <script src="timer.js"></script>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            </style>
+        <title>Instituto do Amanha</title>
+    </Head>
+<body>
+    <h1 style="text-align:center; font-size: 60px;">Instituto do Amanhã</h1>
+    <p id="demo"></p>
+
+    <div class="linha_1">
+        <div class="porta">
+            <a href="desafio_01_mapa.html">
+                <p><input type="image" src="resources/doors/door_1.png"/></p>
+            </a>            
+        </div>
+        <div class="porta">
+            <a href="desafio_02_mapa.html">
+                <p><input type="image" src="resources/doors/door_2.png"/></p>
+            </a>
+        </div>
+        <div class="porta">
+            <a href="desafio_03_mapa.html">
+                <p><input type="image" src="resources/doors/door_3.png"/></p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
